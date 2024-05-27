@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="perfil">
+            <div id="fecha">1 de Junio</div>
+            <h1>Hola, Adan</h1>
+            <span>Organiza tus actividades :D</span>
+        </div>
+
+        <div class="agregar-tarea">
+            <input type="text" id="input" placeholder="Agregar una tarea">
+            <i class="fas fa-plus-circle" id="boton-enter"></i>
+        </div>
+
+        <div class="filters">
+            <!-- <div class="filter" data-filter="realizadas">Realizadas</div>
+            <div class="filter" data-filter="pendientes">Pendientes</div> -->
+            <div class="delete-all" >Borrar todo</div>
+        </div>
+
+        <div class="seccion-tarea">
+            <h3>Estas son tus tareas pendientes</h3>
+            <ul id="lista">
+                <!-- <li>
+                    <i class="far fa-circle co" data="realizado" id="0"></i>
+                    <p class="text">Hacer tarea de S.O.</p>
+                    <i class="fas fa-trash de" data="terminado" id="0"></i>
+                </li> -->
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
