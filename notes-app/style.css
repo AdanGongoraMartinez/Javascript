@@ -42,8 +42,33 @@ body{
     cursor: pointer;
 }
 
+.container button:hover{
+    background: linear-gradient(45deg,#08001f,#30197d);
+    border: 5px inherit;
+}
+
 .container button img{
     width: 25px;
     margin-right: 8px;
 }
 
+.input-box{
+    background: white;
+    color: #333;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 25px;
+}
+
+.input-box img{
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
