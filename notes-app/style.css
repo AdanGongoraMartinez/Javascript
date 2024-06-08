@@ -1,3 +1,5 @@
+/** Default Style */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@ body{
     background: #1E1E1E;
     height: 100vh;
 }
+
+/** Site Style */
 
 .container{
     width: 100%;
